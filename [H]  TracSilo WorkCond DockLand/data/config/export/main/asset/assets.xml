@@ -13,14 +13,10 @@
 				<Right>0.9</Right>
 			</SliderScaleStress>
 		</ModOp>
-					<!-- END Working Conditions tweak -->
+<!-- END Working Conditions tweak -->
 
-					
-
-
-
-				<!-- start DOCKLAND -->								
-		<!-- NERF - Docklands Storage module = add Worker workforce requirement  -->
+					<!-- start DOCKLAND -->								
+				<!-- NERF - Docklands Storage module = add Worker workforce requirement  -->
 		
 		<ModOp Type = "add" GUID='601463' Path="/Values/Maintenance/Maintenances/">
 			<Item>
@@ -29,7 +25,7 @@
 			</Item>
 		</ModOp>
 
-		<!-- NERF - Docklands Export Office Maintenance cost increase -->
+				<!-- NERF - Docklands Export Office Maintenance cost increase -->
 
 		<ModOp Type = "replace" GUID='601462' Path="/Values/Maintenance">
 				<Maintenance>
@@ -50,20 +46,11 @@
 				<InfluenceCostType>CharterRoutes</InfluenceCostType>
 				<InfluenceCostPoints>8</InfluenceCostPoints>
 			</ModOp>
-							<!-- end DOCKLAND -->			
+<!-- end DOCKLAND -->			
 
-	
-
-
-
-
-
-
-
-
-				<!--[ItemTradeUion] common items FactoryUpgrade FreeArea building -->
+							<!--[ItemTradeUion] common items Animal Crop FreeArea building -->
 				
-				<ModOp Type="replace" GUID='190734,190740,190733' Path="/Values/FactoryUpgrade/">
+				<ModOp Type="replace" GUID='190734,190740,190733,191580,190744,190745,190753,190686,190685' Path="/Values/FactoryUpgrade/">
 					<FactoryUpgrade>
 						<AdditionalOutput>
 						<Item>
@@ -74,10 +61,10 @@
 						</AdditionalOutput>
 					</FactoryUpgrade>
 				</ModOp>
-				<ModOp Type="replace" GUID='190734,190740,190733' Path="/Values/BuildingUpgrade/">
+				<ModOp Type="replace" GUID='190734,190740,190733,191580,190744,190745,190753,190686,190685' Path="/Values/BuildingUpgrade/">
 					<BuildingUpgrade>
 					  <MaintenanceUpgrade>
-						<Value>75</Value>
+						<Value>50</Value>
 						<Percental>1</Percental>
 					  </MaintenanceUpgrade>
 					  <WorkforceAmountUpgrade>
@@ -87,9 +74,9 @@
 					</BuildingUpgrade>
 				</ModOp>
 				
-										<!--[ItemTradeUion] uncommon items FactoryUpgrade FreeArea building -->
+										<!--[ItemTradeUion] uncommon items Animal Crop FreeArea building -->
 						
-						<ModOp Type="replace" GUID='190853,190736,190741,190850,190856,190735' Path="/Values/FactoryUpgrade/">
+						<ModOp Type="replace" GUID='190736,190741,190735,191581,190746,190747,190754,190688,190687' Path="/Values/FactoryUpgrade/">
 							<FactoryUpgrade>
 								<AdditionalOutput>
 								<Item>
@@ -100,22 +87,22 @@
 								</AdditionalOutput>
 							</FactoryUpgrade>
 						</ModOp>
-						<ModOp Type="replace" GUID='190853,190736,190741,190850,190856,190735' Path="/Values/BuildingUpgrade/">
+						<ModOp Type="replace" GUID='190736,190741,190735,191581,190746,190747,190754,190688,190687' Path="/Values/BuildingUpgrade/">
 							<BuildingUpgrade>
 							  <MaintenanceUpgrade>
-								<Value>50</Value>
+								<Value>40</Value>
 								<Percental>1</Percental>
 							  </MaintenanceUpgrade>
 							  <WorkforceAmountUpgrade>
-								<Value>25</Value>
+								<Value>40</Value>
 								<Percental>1</Percental>
 							  </WorkforceAmountUpgrade>
 							</BuildingUpgrade>
 						</ModOp>
 						
-												<!--[ItemTradeUion] rare items FactoryUpgrade FreeArea building -->
+												<!--[ItemTradeUion] rare items Animal Crop FreeArea building -->
 								
-								<ModOp Type="replace" GUID='190854,190737,190742,190851,190857' Path="/Values/FactoryUpgrade/">
+								<ModOp Type="replace" GUID='190737,190742,191582,190748,190749,190689,190690' Path="/Values/FactoryUpgrade/">
 									<FactoryUpgrade>
 										<AdditionalOutput>
 										<Item>
@@ -126,91 +113,46 @@
 										</AdditionalOutput>
 									</FactoryUpgrade>
 								</ModOp>
-								<ModOp Type="replace" GUID='190854,190737,190742,190851,190857' Path="/Values/BuildingUpgrade/">
+								<ModOp Type="replace" GUID='190737,190742,191582,190748,190749,190689,190690' Path="/Values/BuildingUpgrade/">
 									<BuildingUpgrade>
 									  <MaintenanceUpgrade>
-										<Value>50</Value>
+										<Value>40</Value>
 										<Percental>1</Percental>
 									  </MaintenanceUpgrade>
+									  <WorkforceAmountUpgrade>
+										<Value>40</Value>
+										<Percental>1</Percental>
+									  </WorkforceAmountUpgrade>
 									</BuildingUpgrade>
 								</ModOp>
 				
-								<!--[ItemTradeUion] common items FactoryUpgrade Animal Crop Farms -->
-				
-				<ModOp Type="replace" GUID='191580,190744,190745,190753,190686,190685' Path="/Values/FactoryUpgrade/">
-					<FactoryUpgrade>
-						<AdditionalOutput>
-						<Item>
-							<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-							<AdditionalOutputCycle>6</AdditionalOutputCycle>
-							<Amount>1</Amount>
-						</Item>
-						</AdditionalOutput>
-					</FactoryUpgrade>
-				</ModOp>
-				<ModOp Type="replace" GUID='191580,190744,190745,190753,190686,190685' Path="/Values/BuildingUpgrade/">
-					<BuildingUpgrade>
-					  <MaintenanceUpgrade>
-						<Value>75</Value>
-						<Percental>1</Percental>
-					  </MaintenanceUpgrade>
-					  <WorkforceAmountUpgrade>
-						<Value>25</Value>
-						<Percental>1</Percental>
-					  </WorkforceAmountUpgrade>
-					</BuildingUpgrade>
-				</ModOp>
-				
-								<!--[ItemTradeUion] uncommon items FactoryUpgrade Animal Crop Farms -->
+													<!--[ItemTradeUion] Epic items Animal Crop FreeArea building -->
 						
-						<ModOp Type="replace" GUID='190869,190866,191581,190746,190747,190754,190862,190859,190688,190687' Path="/Values/FactoryUpgrade/">
-							<FactoryUpgrade>
-								<AdditionalOutput>
-								<Item>
-									<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-									<AdditionalOutputCycle>5</AdditionalOutputCycle>
-									<Amount>1</Amount>
-								</Item>
-								</AdditionalOutput>
-							</FactoryUpgrade>
-						</ModOp>
-						<ModOp Type="replace" GUID='190869,190866,191581,190746,190747,190754,190862,190859,190688,190687' Path="/Values/BuildingUpgrade/">
-							<BuildingUpgrade>
-							  <MaintenanceUpgrade>
-								<Value>50</Value>
-								<Percental>1</Percental>
-							  </MaintenanceUpgrade>
-							  <WorkforceAmountUpgrade>
-								<Value>25</Value>
-								<Percental>1</Percental>
-							  </WorkforceAmountUpgrade>
-							</BuildingUpgrade>
-						</ModOp>
+											<ModOp Type="replace" GUID='190743,190738,191583,190750,190751,193187,190692,190691' Path="/Values/FactoryUpgrade/">
+												<FactoryUpgrade>
+													<AdditionalOutput>
+													<Item>
+														<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+														<AdditionalOutputCycle>3</AdditionalOutputCycle>
+														<Amount>1</Amount>
+													</Item>
+													</AdditionalOutput>
+												</FactoryUpgrade>
+											</ModOp>
+											<ModOp Type="replace" GUID='190743,190738,191583,190750,190751,193187,190692,190691' Path="/Values/BuildingUpgrade/">
+												<BuildingUpgrade>
+													<MaintenanceUpgrade>
+													<Value>25</Value>
+													<Percental>1</Percental>
+													</MaintenanceUpgrade>
+													<WorkforceAmountUpgrade>
+													<Value>25</Value>
+													<Percental>1</Percental>
+													</WorkforceAmountUpgrade>
+												</BuildingUpgrade>
+											</ModOp>		
 				
-										<!--[ItemTradeUion] rare items FactoryUpgrade Animal Crop Farms -->
-								
-								<ModOp Type="replace" GUID='190867,190870,191582,190748,190749,190860,190863,190689,190690' Path="/Values/FactoryUpgrade/">
-									<FactoryUpgrade>
-										<AdditionalOutput>
-										<Item>
-											<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-											<AdditionalOutputCycle>4</AdditionalOutputCycle>
-											<Amount>1</Amount>
-										</Item>
-										</AdditionalOutput>
-									</FactoryUpgrade>
-								</ModOp>
-								<ModOp Type="replace" GUID='190867,190870,191582,190748,190749,190860,190863,190689,190690' Path="/Values/BuildingUpgrade/">
-									<BuildingUpgrade>
-									  <MaintenanceUpgrade>
-										<Value>80</Value>
-										<Percental>1</Percental>
-									  </MaintenanceUpgrade>
-									</BuildingUpgrade>
-								</ModOp>
-			
-				
-				<!--[ItemTradeUion] common items FactoryUpgrade Mineral Deposits -->
+					<!--[ItemTradeUion] common items Mineral Deposits -->
 				
 				<ModOp Type="replace" GUID='190755,191586,191585' Path="/Values/FactoryUpgrade/">
 					<FactoryUpgrade>
@@ -225,10 +167,6 @@
 				</ModOp>
 				<ModOp Type="replace" GUID='190755,191586,191585' Path="/Values/BuildingUpgrade/">
 					<BuildingUpgrade>
-					  <MaintenanceUpgrade>
-						<Value>50</Value>
-						<Percental>1</Percental>
-					  </MaintenanceUpgrade>
 					  <WorkforceAmountUpgrade>
 						<Value>50</Value>
 						<Percental>1</Percental>
@@ -236,9 +174,9 @@
 					</BuildingUpgrade>
 				</ModOp>
 				
-								<!--[ItemTradeUion] uncommon items FactoryUpgrade Mineral Deposits -->
+							<!--[ItemTradeUion] uncommon items Mineral Deposits -->
 						
-						<ModOp Type="replace" GUID='190757,190876,190879,191588,191587' Path="/Values/FactoryUpgrade/">
+						<ModOp Type="replace" GUID='190757,191588,191587' Path="/Values/FactoryUpgrade/">
 							<FactoryUpgrade>
 								<AdditionalOutput>
 								<Item>
@@ -249,18 +187,18 @@
 								</AdditionalOutput>
 							</FactoryUpgrade>
 						</ModOp>
-						<ModOp Type="replace" GUID='190757,190876,190879,191588,191587' Path="/Values/BuildingUpgrade/">
+						<ModOp Type="replace" GUID='190757,191588,191587' Path="/Values/BuildingUpgrade/">
 							<BuildingUpgrade>
 							  <WorkforceAmountUpgrade>
-								<Value>50</Value>
+								<Value>100</Value>
 								<Percental>1</Percental>
 							  </WorkforceAmountUpgrade>
 							</BuildingUpgrade>
 						</ModOp>
 						
-										<!--[ItemTradeUion] rare items FactoryUpgrade Mineral Deposits -->
+									<!--[ItemTradeUion] rare items Mineral Deposits -->
 								
-								<ModOp Type="replace" GUID='190759,190877,190880,191589' Path="/Values/FactoryUpgrade/">
+								<ModOp Type="replace" GUID='190759,191589' Path="/Values/FactoryUpgrade/">
 									<FactoryUpgrade>
 										<AdditionalOutput>
 										<Item>
@@ -271,18 +209,47 @@
 										</AdditionalOutput>
 									</FactoryUpgrade>
 								</ModOp>
-								<ModOp Type="replace" GUID='190759,190877,190880,191589' Path="/Values/BuildingUpgrade/">
+								<ModOp Type="replace" GUID='190759,191589' Path="/Values/BuildingUpgrade/">
 									<BuildingUpgrade>
 									  <MaintenanceUpgrade>
-										<Value>50</Value>
+										<Value>75</Value>
 										<Percental>1</Percental>
 									  </MaintenanceUpgrade>
 									</BuildingUpgrade>
 								</ModOp>
 
-				<!--[ItemTradeUion] common items FactoryUpgrade  -->
+											<!--[ItemTradeUion] epic items Mineral Deposits -->
+								
+										<ModOp Type="replace" GUID='190760,191590' Path="/Values/FactoryUpgrade/">
+											<FactoryUpgrade>
+												<AdditionalOutput>
+												<Item>
+													<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+													<AdditionalOutputCycle>2</AdditionalOutputCycle>
+													<Amount>1</Amount>
+												</Item>
+												</AdditionalOutput>
+											</FactoryUpgrade>
+										</ModOp>
+										<ModOp Type="replace" GUID='190760,191590' Path="/Values/BuildingUpgrade/">
+											<BuildingUpgrade>
+											  <MaintenanceUpgrade>
+												<Value>25</Value>
+												<Percental>1</Percental>
+											  </MaintenanceUpgrade>
+											  <WorkforceAmountUpgrade>
+												<Value>25</Value>
+												<Percental>1</Percental>
+											  </WorkforceAmountUpgrade>
+											</BuildingUpgrade>
+										</ModOp>
+
+
+
+
+							<!--[ItemTradeUion] common items FactoryUpgrade General -->
 				
-				<ModOp Type="replace" GUID='191459,191460,191426,191425,190699,190700,191325,191379,191384,190628,191315,191395,191394,191336,191414,191413,191306,191351,191320,190623,191372,191412,190645,190644,191312,191341,191367,191396,191342,190639,191330' Path="/Values/FactoryUpgrade/">
+				<ModOp Type="replace" GUID='191459,191460,191425,191426,190699,190700,191325,191379,191384,190628,191315,191395,191394,191336,191414,191413,191306,191351,191320,190623,191372,191412,190645,190644,191312,191341,191367,191396,191342,190639,191330' Path="/Values/FactoryUpgrade/">
 					<FactoryUpgrade>
 						<AdditionalOutput>
 						<Item>
@@ -293,10 +260,10 @@
 						</AdditionalOutput>
 					</FactoryUpgrade>
 				</ModOp>
-				<ModOp Type="replace" GUID='191459,191460,191426,191425,190699,190700,191325,191379,191384,190628,191315,191395,191394,191336,191414,191413,191306,191351,191320,190623,191372,191412,190645,190644,191312,191341,191367,191396,191342,190639,191330' Path="/Values/BuildingUpgrade/">
+				<ModOp Type="replace" GUID='191459,191460,191425,191426,190699,190700,191325,191379,191384,190628,191315,191395,191394,191336,191414,191413,191306,191351,191320,190623,191372,191412,190645,190644,191312,191341,191367,191396,191342,190639,191330' Path="/Values/BuildingUpgrade/">
 					<BuildingUpgrade>
 					  <MaintenanceUpgrade>
-						<Value>75</Value>
+						<Value>50</Value>
 						<Percental>1</Percental>
 					  </MaintenanceUpgrade>
 					  <WorkforceAmountUpgrade>
@@ -306,23 +273,23 @@
 					</BuildingUpgrade>
 				</ModOp>
 				
-										<!--[ItemTradeUion] uncommon items FactoryUpgrade  -->
+									<!--[ItemTradeUion] uncommon items FactoryUpgrade General -->
 						
-						<ModOp Type="replace" GUID='191461,190911,191462,191428,191427,192358,190908,190701,190830,190702,191326,191380,191397,190629,191316,190873,190847,191399,191398,191337,191417,190839,191415,191307,191352,190905,191321,190898,190624,191374,191416,190887,190647,190646,191313,191343,191368,191385,191344,190640,191331,190843,190883,190824,190818,190827,190894,190891' Path="/Values/FactoryUpgrade/">
+						<ModOp Type="replace" GUID='191461,191462,191427,192358,191428,190701,190702,191326,191380,191397,190629,191316,191399,191398,191337,191417,191415,191307,191352,191321,190624,191374,191416,190647,190646,191313,191343,191368,191385,191344,190640,191331' Path="/Values/FactoryUpgrade/">
 							<FactoryUpgrade>
 								<AdditionalOutput>
 								<Item>
 									<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-									<AdditionalOutputCycle>5</AdditionalOutputCycle>
+									<AdditionalOutputCycle>6</AdditionalOutputCycle>
 									<Amount>1</Amount>
 								</Item>
 								</AdditionalOutput>
 							</FactoryUpgrade>
 						</ModOp>
-						<ModOp Type="replace" GUID='191461,190911,191462,191428,191427,192358,190908,190701,190830,190702,191326,191380,191397,190629,191316,190873,190847,191399,191398,191337,191417,190839,191415,191307,191352,190905,191321,190898,190624,191374,191416,190887,190647,190646,191313,191343,191368,191385,191344,190640,191331,190843,190883,190824,190818,190827,190894,190891' Path="/Values/BuildingUpgrade/">
+						<ModOp Type="replace" GUID='191461,191462,191427,192358,191428,190701,190702,191326,191380,191397,190629,191316,191399,191398,191337,191417,191415,191307,191352,191321,190624,191374,191416,190647,190646,191313,191343,191368,191385,191344,190640,191331' Path="/Values/BuildingUpgrade/">
 							<BuildingUpgrade>
 							  <MaintenanceUpgrade>
-								<Value>50</Value>
+								<Value>25</Value>
 								<Percental>1</Percental>
 							  </MaintenanceUpgrade>
 							  <WorkforceAmountUpgrade>
@@ -332,20 +299,20 @@
 							</BuildingUpgrade>
 						</ModOp>
 						
-												<!--[ItemTradeUion] rare items FactoryUpgrade  -->
+											<!--[ItemTradeUion] rare items FactoryUpgrade General -->
 								
-								<ModOp Type="replace" GUID='191463,190912,191429,190909,190703,190831,191327,191381,191403,190630,191317,190874,190848,191400,191404,191348,191419,190840,191308,191353,190906,191322,190899,190625,191418,190888,190648,191356,191345,191369,191386,191349,190641,191332,190844,190884,190819,190825,190828,190895,190892' Path="/Values/FactoryUpgrade/">
+								<ModOp Type="replace" GUID='191463,191429,190703,191327,191381,191403,190630,191317,191400,191404,191348,191419,191308,191353,191322,190625,191418,190648,191356,191345,191369,191386,191349,190641,191332' Path="/Values/FactoryUpgrade/">
 									<FactoryUpgrade>
 										<AdditionalOutput>
 										<Item>
 											<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-											<AdditionalOutputCycle>4</AdditionalOutputCycle>
+											<AdditionalOutputCycle>5</AdditionalOutputCycle>
 											<Amount>1</Amount>
 										</Item>
 										</AdditionalOutput>
 									</FactoryUpgrade>
 								</ModOp>
-								<ModOp Type="replace" GUID='191463,190912,191429,190909,190703,190831,191327,191381,191403,190630,191317,190874,190848,191400,191404,191348,191419,190840,191308,191353,190906,191322,190899,190625,191418,190888,190648,191356,191345,191369,191386,191349,190641,191332,190844,190884,190819,190825,190828,190895,190892' Path="/Values/BuildingUpgrade/">
+								<ModOp Type="replace" GUID='191463,191429,190703,191327,191381,191403,190630,191317,191400,191404,191348,191419,191308,191353,191322,190625,191418,190648,191356,191345,191369,191386,191349,190641,191332' Path="/Values/BuildingUpgrade/">
 									<BuildingUpgrade>
 									  <MaintenanceUpgrade>
 										<Value>50</Value>
@@ -354,10 +321,36 @@
 									</BuildingUpgrade>
 								</ModOp>
 
+
+													<!--[ItemTradeUion] epic items FactoryUpgrade General -->
+
+										<ModOp Type="replace" GUID='191464,191430,190704,191328,191382,191401,190631,191318,191405,191406,192039,191424,191309,191323,190626,191354,191420,190649,191346,191370,191387,190642,191333' Path="/Values/FactoryUpgrade/">
+											<FactoryUpgrade>
+												<AdditionalOutput>
+												<Item>
+													<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+													<AdditionalOutputCycle>4</AdditionalOutputCycle>
+													<Amount>1</Amount>
+												</Item>
+												</AdditionalOutput>
+											</FactoryUpgrade>
+										</ModOp>
+										<ModOp Type="replace" GUID='191464,191430,190704,191328,191382,191401,190631,191318,191405,191406,192039,191424,191309,191323,190626,191354,191420,190649,191346,191370,191387,190642,191333' Path="/Values/BuildingUpgrade/">
+											<BuildingUpgrade>
+												<MaintenanceUpgrade>
+												<Value>50</Value>
+												<Percental>1</Percental>
+												</MaintenanceUpgrade>
+												<WorkforceAmountUpgrade>
+												  <Value>25</Value>
+												  <Percental>1</Percental>
+												</WorkforceAmountUpgrade>
+											</BuildingUpgrade>
+										</ModOp>
 </ModOps>
 
 
-<!--
+
 
 							'NERF - add Worker workforce requirement for WareHouse module'
 
@@ -367,7 +360,6 @@
 											  <Amount>75</Amount>
 											</Item>
 							</ModOp>
-				
 							<ModOp Type = "replace" GUID='601463' Path="/Values/Maintenance">
 								<Maintenance>
 										  <Maintenances>
@@ -379,28 +371,7 @@
 										  <IncomeCategory>HarbourBuildings</IncomeCategory>
 								</Maintenance>
 							</ModOp>
-				
-							'NERF - Export Office Maintenance cost increase'
-					
-							<ModOp Type = "replace" GUID='601462' Path="/Values/Maintenance"> 
-								<Maintenance>
-										  <Maintenances>
-											<Item>
-											  <Product>1010017</Product>
-											  <Amount>1500</Amount>
-											  <InactiveAmount>750</InactiveAmount>
-											</Item>
-										  </Maintenances>
-										  <IncomeCategory>HarbourBuildings</IncomeCategory>
-								</Maintenance>
-							</ModOp>
 
-								'NERF - add Influence type and Cost to Export Office'
-
-								<ModOp Type = "add" GUID='601462' Path="/Values/Cost"> 
-									<InfluenceCostType>CharterRoutes</InfluenceCostType>
-									<InfluenceCostPoints>8</InfluenceCostPoints>
-								</ModOp>
 
 
 	         reduce effectiveness of docklands specialty goods 
@@ -447,15 +418,15 @@
   <Value>X</Value>
 </ModOp>
 
-													additional output Adjustment
+													extra output Adjustment
 																<ModOp Type="replace" GUID="269978" Path="/Values/FactoryUpgrade/AdditionalOutput">
-																<AdditionalOutput>
-																	<Item>
-																	<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-																	<AdditionalOutputCycle>3</AdditionalOutputCycle>
-																	<Amount>1</Amount>
-																	</Item>
-																</AdditionalOutput>
+																	<AdditionalOutput>
+																		<Item>
+																		<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+																		<AdditionalOutputCycle>3</AdditionalOutputCycle>
+																		<Amount>1</Amount>
+																		</Item>
+																	</AdditionalOutput>
 																</ModOp>
 
 						TractorBuff
@@ -463,19 +434,261 @@
   <Value>X</Value>
 </ModOp>
 
-													additional output Adjustment
+													extra output Adjustment
 																<ModOp Type="replace" GUID="269979" Path="/Values/FactoryUpgrade/AdditionalOutput">
-																<AdditionalOutput>
-																	<Item>
-																	<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-																	<AdditionalOutputCycle>3</AdditionalOutputCycle>
-																	<Amount>1</Amount>
-																	</Item>
-																</AdditionalOutput>
+																	<AdditionalOutput>
+																		<Item>
+																		<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+																		<AdditionalOutputCycle>3</AdditionalOutputCycle>
+																		<Amount>1</Amount>
+																		</Item>
+																	</AdditionalOutput>
 																</ModOp>
 
 
 
+																<Asset>
+																	<Template>GuildhouseItem</Template>
+																	<Values>
+																	  <Standard>
+																		<GUID>191584</GUID>
+																		<Name>Max von Stephanitz - The German Shepherd Breeder</Name>
+																		<IconFilename>data/ui/2kimages/main/3dicons/specialists/systemic/icon_normal_dressed_207.png</IconFilename>
+																		<InfoDescription>19932</InfoDescription>
+																	  </Standard>
+																	  <Text>
+																		<LocaText>
+																		  <English>
+																			<Text>Mark van der Mark, Breeder of Shepherd Dogs</Text>
+																			<Status>Exported</Status>
+																		  </English>
+																		</LocaText>
+																		<LineID>26743</LineID>
+																	  </Text>
+																	  <Item>
+																		<MaxStackSize>1</MaxStackSize>
+																		<Rarity>Legendary</Rarity>
+																		<ItemType>Specialist</ItemType>
+																		<TradePrice>750000</TradePrice>
+																		<TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+																	  </Item>
+																	  <FactoryUpgrade>
+																		<ProductivityUpgrade>
+																		  <Value>100</Value>
+																		  <Percental>1</Percental>
+																		</ProductivityUpgrade>
+																		<AdditionalOutput>
+																		  <Item>
+																			<Product>120036</Product>
+																			<AdditionalOutputCycle>3</AdditionalOutputCycle>
+																			<Amount>1</Amount>
+																		  </Item>
+																		</AdditionalOutput>
+																	  </FactoryUpgrade>
+																	  <ItemEffect>
+																		<EffectTargets>
+																		  <Item>
+																			<GUID>190872</GUID>
+																		  </Item>
+																		</EffectTargets>
+																	  </ItemEffect>
+																	  <ItemAction />
+																	  <ExpeditionAttribute>
+																		<BaseMorale>0</BaseMorale>
+																		<ExpeditionAttributes>
+																		  <Item>
+																			<Attribute>PerkMale</Attribute>
+																			<Amount>1</Amount>
+																		  </Item>
+																		  <Item>
+																			<Attribute>Hunting</Attribute>
+																			<Amount>50</Amount>
+																		  </Item>
+																		  <Item>
+																			<Attribute>Diplomacy</Attribute>
+																			<Amount>30</Amount>
+																		  </Item>
+																		</ExpeditionAttributes>
+																		<ItemDifficulties>Hard</ItemDifficulties>
+																		<FluffText>19932</FluffText>
+																	  </ExpeditionAttribute>
+															<CultureUpgrade>
+																<AttractivenessUpgrade>
+																	<Value>8</Value>
+																</AttractivenessUpgrade>
+															</CultureUpgrade>
+																	  <BuildingUpgrade />
+													<ModuleOwnerUpgrade>
+													<ModuleLimitPercent>100</ModuleLimitPercent>
+													</ModuleOwnerUpgrade>
+																						<IncidentInfluencerUpgrade>
+																							<RiotInfluenceUpgrade>
+																								<Value>-50</Value>
+																								<Percental>1</Percental>
+																							</RiotInfluenceUpgrade>
+																							<FireInfluenceUpgrade>
+																								<Value>-50</Value>
+																								<Percental>1</Percental>
+																							</FireInfluenceUpgrade>																				
+																									<SpecialUnitHappinessThresholdUpgrade>
+																										<Value>-10</Value>
+																							  		</SpecialUnitHappinessThresholdUpgrade>
+																						</IncidentInfluencerUpgrade>
+														<IncidentInfectableUpgrade>
+														<IncidentFireIncreaseUpgrade>
+															<Value>25</Value>
+															<Percental>1</Percental>
+														</IncidentFireIncreaseUpgrade>
+														<IncidentIllnessIncreaseUpgrade>
+															<Value>35</Value>
+															<Percental>1</Percental>
+														</IncidentIllnessIncreaseUpgrade>
+														<IncidentRiotIncreaseUpgrade>
+															<Value>10</Value>
+															<Percental>1</Percental>
+														</IncidentRiotIncreaseUpgrade>
+														</IncidentInfectableUpgrade>
+																	<ResidenceUpgrade>
+																		
+																		<NeedProvideNeedUpgrade>
+																			<Item>
+																			  <ProvidedNeed>135186</ProvidedNeed>
+																			  <SubstituteNeed>135108</SubstituteNeed>
+																			</Item>
+																			<Item>
+																			  <ProvidedNeed>135232</ProvidedNeed>
+																			  <SubstituteNeed>135107</SubstituteNeed>
+																			</Item>
+																			<Item>
+																			  <ProvidedNeed>135233</ProvidedNeed>
+																			  <SubstituteNeed>135109</SubstituteNeed>
+																			</Item>
+																		  </NeedProvideNeedUpgrade>
+																		
+																		<TaxModifierInPercent>15</TaxModifierInPercent>
+																		<WorkforceModifierInPercent>15</WorkforceModifierInPercent>
+																		<AdditionalHappiness>25</AdditionalHappiness>
+																		<GoodConsumptionUpgrade>
+																		  <Item>
+																			<ProvidedNeed>1010216</ProvidedNeed>
+																			<AmountInPercent>-100</AmountInPercent>
+																		  </Item>
+																		  <Item>
+																			<ProvidedNeed>1010214</ProvidedNeed>
+																			<AmountInPercent>-100</AmountInPercent>
+																		  </Item>
+																		  <Item>
+																			<ProvidedNeed>1010257</ProvidedNeed>
+																			<AmountInPercent>-100</AmountInPercent>
+																		  </Item>
+																		  <Item>
+																			<ProvidedNeed>120016</ProvidedNeed>
+																			<AmountInPercent>-100</AmountInPercent>
+																		  </Item>
+																		</GoodConsumptionUpgrade>
+																	</ResidenceUpgrade>
+																	  <PopulationUpgrade />
+																	  <IndustrializableUpgrade>
 
+																	  <ProvideIndustrialization>1</ProvideIndustrialization>
 
--->
+																		<ElectricityBoostUpgrade>
+																		  <Value>50</Value>
+																		  <Percental>1</Percental>
+																		</ElectricityBoostUpgrade>
+																		
+																	  </IndustrializableUpgrade>
+
+																	  <Locked />
+																	  <Buff />
+																	  <CraftableItem />
+																	  <HeaterUpgrade />
+																	  <PowerplantUpgrade />
+																	  <IrrigationUpgrade />
+																	  <EcoSystemProviderUpgrade />
+																	</Values>
+																  </Asset>
+																</Assets>
+																<Asset>
+																	<Template>GuildhouseItem</Template>
+																	<Values>
+																	  <Standard>
+																		<GUID>136838</GUID>
+																		<Name>NightShift</Name>
+																		<IconFilename>data/ui/2kimages/main/3dicons/highlife/icon_assembly_line_item_new_1.png</IconFilename>
+																		<InfoDescription>136837</InfoDescription>
+																	  </Standard>
+																	  <Text>
+																		<LocaText>
+																		  <English>
+																			<Text>Get Rich Quick Vol VI: Night Moves</Text>
+																			<Status>Exported</Status>
+																		  </English>
+																		</LocaText>
+																		<LineID>52298</LineID>
+																	  </Text>
+																	  <Item>
+																		<MaxStackSize>1</MaxStackSize>
+																		<Rarity>Rare</Rarity>
+																		<TradePrice>29500</TradePrice>
+																	  </Item>
+																	  <FactoryUpgrade>
+																		<ProductivityUpgrade>
+																		  <Value>120</Value>
+																		  <Percental>1</Percental>
+																		</ProductivityUpgrade>
+																	  </FactoryUpgrade>
+																	  <ItemEffect>
+																		<EffectTargets>
+																		  <Item>
+																			<GUID>194023</GUID>
+																		  </Item>
+																		</EffectTargets>
+																	  </ItemEffect>
+																	  <ItemAction />
+																	  <ExpeditionAttribute>
+																		<ItemDifficulties>Average</ItemDifficulties>
+																	  </ExpeditionAttribute>
+																	  <CultureUpgrade>
+																		<AttractivenessUpgrade>
+																		  <Value>-35</Value>
+																		</AttractivenessUpgrade>
+																	  </CultureUpgrade>
+																	  <BuildingUpgrade>
+																		<MaintenanceUpgrade>
+																		  <Value>100</Value>
+																		  <Percental>1</Percental>
+																		</MaintenanceUpgrade>
+																		<WorkforceAmountUpgrade>
+																		  <Value>100</Value>
+																		  <Percental>1</Percental>
+																		</WorkforceAmountUpgrade>
+																	  </BuildingUpgrade>
+																	  <ModuleOwnerUpgrade />
+																	  <IncidentInfluencerUpgrade />
+																	  <IncidentInfectableUpgrade>
+																		<IncidentFireIncreaseUpgrade>
+																		  <Value>25</Value>
+																		  <Percental>1</Percental>
+																		</IncidentFireIncreaseUpgrade>
+																		<IncidentIllnessIncreaseUpgrade>
+																		  <Value>35</Value>
+																		  <Percental>1</Percental>
+																		</IncidentIllnessIncreaseUpgrade>
+																		<IncidentRiotIncreaseUpgrade>
+																		  <Value>10</Value>
+																		  <Percental>1</Percental>
+																		</IncidentRiotIncreaseUpgrade>
+																	  </IncidentInfectableUpgrade>
+																	  <ResidenceUpgrade />
+																	  <PopulationUpgrade />
+																	  <IndustrializableUpgrade />
+																	  <Locked />
+																	  <Buff />
+																	  <CraftableItem />
+																	  <HeaterUpgrade />
+																	  <PowerplantUpgrade />
+																	  <IrrigationUpgrade />
+																	  <EcoSystemProviderUpgrade />
+																	</Values>
+																  </Asset>
